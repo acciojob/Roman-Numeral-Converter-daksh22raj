@@ -1,5 +1,5 @@
 function toRoman(num) {
-  if (num === 0) return "N"; // Romans used 'N' for zero (optional)
+  if (num === 0) return "N"; // Romans sometimes used 'N' for zero
 
   const values = [
     ["M", 1000],
